@@ -1,0 +1,23 @@
+{
+  "name": "mickey-wizard",
+  "version": "1.0.0",
+  "description": "Your automated bot to refresh metadata on OpenSea",
+  "main": "index.js",
+  "scripts": {
+    "start": "node mickey.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nft-studio/mickey-wizard.git"
+  },
+  "author": "nftstudio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nft-studio/mickey-wizard/issues"
+  },
+  "homepage": "https://github.com/nft-studio/mickey-wizard#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "puppeteer": "^10.4.0"
+  }
+}
